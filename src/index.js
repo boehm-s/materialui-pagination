@@ -140,7 +140,7 @@ class Pagination extends React.Component {
                   value={this.props.page}
                   onChange={this.selectPageNumber}
               >
-                {this.props.total === 1 ? 1 : this.numberOfPages()}
+                {this.props.total === 1 ? null : this.numberOfPages()}
               </SelectField>
             </div>
 
